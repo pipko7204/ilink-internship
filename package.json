@@ -17,6 +17,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "lint": "npx eslint src/*.tsx",
+    "prettier": "npx prettier --write .",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
