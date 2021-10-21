@@ -1,24 +1,21 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import {Button} from "./compnents/atoms/Button";
+import {Input} from "./compnents/atoms/Input";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<Button
+        name="name"
+        disabled={false}
+      />*/}
+      <Input
+        placeholder="Input user name"
+        type="text"
+        error={false}
+        label="User name"
+      />
     </div>
   );
 }

@@ -1,0 +1,44 @@
+input {
+  width: 354px;
+  height: 56px;
+
+  padding: 16px;
+
+  border: 1px solid #B3CDF8;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  &:focus {
+    border: 1px solid #29B0D9;
+  }
+
+  &.error {
+    border: 1px solid #FB6262;
+  }
+  &.error:after {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 502px;
+    top: 347px;
+
+    border: 1.5px solid #FB6262;
+
+  }
+}
+
+.p {
+  position: relative;
+  left: 510px;
+  top: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+
+  display: flex;
+  align-items: center;
+
+  color: #333333;
+}
