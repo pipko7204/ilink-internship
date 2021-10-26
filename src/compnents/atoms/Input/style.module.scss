@@ -9,12 +9,14 @@ input {
   border-radius: 8px;
 
   &:focus {
+    outline: none;
     border: 1px solid #29B0D9;
   }
 
   &.error {
     border: 1px solid #FB6262;
   }
+
   &.error:after {
     position: absolute;
     width: 18px;
