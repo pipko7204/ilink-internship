@@ -1,0 +1,33 @@
+.chat_page {
+  display: grid;
+  grid-template-rows: 80px 96px auto 80px;
+  grid-template-columns: 362px auto;
+  grid-gap: 0px;
+  grid-template-areas:
+    "header header"
+    "chat_container chat_header"
+    "chat_container chat"
+    "chat_container message_form"
+
+;
+}
+
+.header {
+  grid-area: header;
+}
+
+.chat_container {
+  grid-area: chat_container;
+}
+
+.chat_header {
+  grid-area: chat_header;
+}
+
+.chat {
+  grid-area: chat;
+}
+
+.message_form {
+  grid-area: message_form;
+}

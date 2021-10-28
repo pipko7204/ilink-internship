@@ -1,0 +1,21 @@
+.button_chat {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  outline: none;
+
+  margin-top: 17px;
+  margin-right: 24px;
+;
+
+  background-image: url("./../../../assets/Group455429.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  &:hover {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+}

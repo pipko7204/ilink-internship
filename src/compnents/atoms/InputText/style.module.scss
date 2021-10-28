@@ -1,0 +1,9 @@
+.textarea {
+  width: auto;
+  height: 70px;
+  border: 0px;
+  flex-grow: 2;
+  &:focus {
+    outline: none;
+  }
+}

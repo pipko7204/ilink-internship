@@ -1,0 +1,72 @@
+.container {
+  width: 362px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  &.selected {
+    background-color: #5C98F1;
+  }
+}
+
+.chat_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.message_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.user_name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+
+  &.selected {
+    color: #FFFFFF;
+  }
+}
+
+.you {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 4px;
+
+
+  color: #5E93E7;
+
+  &.selected {
+    color: #FFFFFF;
+  }
+}
+
+.message {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 4px;
+  margin-left: 4px;
+
+  color: #949494;
+  &.selected {
+    color: #FFFFFF;
+  }
+}

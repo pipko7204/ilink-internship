@@ -1,0 +1,55 @@
+.login_page {
+  display: flex;
+}
+
+.content_block {
+  width: 50%;
+  height: 100%;
+
+  margin-top: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  margin: auto;
+}
+
+.img_block {
+  width: 50%;
+  height: 100%;
+  background-color: #EFF5FF;
+
+  & img {
+    height: 100%;
+    width: 100%;
+
+  }
+}
+
+@media (max-width: 940px) {
+  .login_page {
+    flex-direction: column-reverse;
+    padding: 0px;
+    justify-content: space-between;
+  }
+
+  .content_block {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .img_block {
+    transform: rotate(-90deg);
+    width: 80%;
+
+    margin-top: 0px;
+    & img {
+    }
+  }
+
+}
+
+

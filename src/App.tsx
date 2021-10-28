@@ -1,21 +1,12 @@
 import React from "react";
 import "./App.css";
-import {Button} from "./compnents/atoms/Button";
-import {Input} from "./compnents/atoms/Input";
-
+import {LoginPage} from "./compnents/Pages/LoginPage";
+import {Routes} from "./routes";
+// супер странная штука. Библиотеки не хотят устанавливаться. Даже classnames начала что-то гнать, хотя я с ней всё делал
 function App() {
   return (
     <div className="App">
-      {/*<Button
-        name="name"
-        disabled={false}
-      />*/}
-      <Input
-        placeholder="Input user name"
-        type="text"
-        error={false}
-        label="User name"
-      />
+      <Routes/>
     </div>
   );
 }

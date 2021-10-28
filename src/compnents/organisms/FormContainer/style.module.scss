@@ -1,0 +1,73 @@
+.login_content_container {
+  width: 474px;
+  height: 509px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 51px;
+
+  color: #333333;
+}
+.dedicated {
+  color: #5C98F1;
+}
+.exclamation_point {
+  color: #B3CDF8;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 33px;
+
+  color: #333333;
+}
+
+@media (max-width: 940px) {
+  .login_content_container {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  h1 {
+    position: absolute;
+    top: 231px;
+    left: 14px;
+
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 33px;
+
+    z-index: 2;
+  }
+  h2 {
+    position: absolute;
+    top: 272px;
+    left: 14px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    z-index: 2;
+  }
+  .logo {
+    position: absolute;
+    top: 183px;
+    left: 14px;
+
+    z-index: 2;
+  }
+}

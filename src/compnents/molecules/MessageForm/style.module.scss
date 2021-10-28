@@ -1,0 +1,26 @@
+.message_form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #88ABE3;
+}
+
+.send_button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 0px;
+  background-color: #FFFFFF;
+  background-image: url("./../../../assets/send.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &:hover {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  &:active {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+    background-color: #D1D1D1;
+  }
+}

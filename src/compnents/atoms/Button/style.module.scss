@@ -1,5 +1,5 @@
 .button {
-  position: absolute;
+
   width: 233px;
   height: 56px;
 
@@ -27,7 +27,7 @@
     background: #2C6AC7;
   }
 
-  &.disabled {
+  &:disabled {
     background: #D1D1D1;
   }
 }

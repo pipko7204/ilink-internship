@@ -1,0 +1,21 @@
+.file_label {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+
+  background-image: url("./../../../assets/clip.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &:hover {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  &:active {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+    background-color: #D1D1D1;
+  }
+}
+
+.button {
+  display: none;
+}

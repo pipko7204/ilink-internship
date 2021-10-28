@@ -11,12 +11,10 @@ export const Button: React.FC<IButton> = ({
     disabled,
 }) => {
     return (
-        <>
             <button className={s.button}
             disabled={disabled}
             >
                 {name}
             </button>
-        </>
     )
 }

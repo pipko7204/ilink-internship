@@ -1,4 +1,4 @@
-input {
+.input {
   width: 354px;
   height: 56px;
 
@@ -7,40 +7,51 @@ input {
   border: 1px solid #B3CDF8;
   box-sizing: border-box;
   border-radius: 8px;
+  margin-bottom: 0px;
 
   &:focus {
     outline: none;
     border: 1px solid #29B0D9;
   }
 
-  &.error {
+  &.input_invalid {
     border: 1px solid #FB6262;
-  }
-
-  &.error:after {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 502px;
-    top: 347px;
-
-    border: 1.5px solid #FB6262;
-
+    background-image: url("../../../assets/Group345.svg");
+    background-repeat: no-repeat;
+    background-position: bottom 50% right 16px;
   }
 }
 
-.p {
-  position: relative;
-  left: 510px;
-  top: 10px;
+
+
+
+.paragraph {
+
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 19px;
-
   display: flex;
   align-items: center;
+  margin: 0px;
 
   color: #333333;
+
+  &.invalid {
+    margin-left: 5px;
+    color: #FB6262;
+  }
+}
+
+.container {
+  height: 111px;
+  max-width: 354px;
+}
+
+@media (max-width: 940px) {
+  .input {
+    width: 300px;
+    height: 48px;
+  }
 }
